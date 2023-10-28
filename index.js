@@ -9,7 +9,7 @@ app.use(express.static("public"));
 app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({ extended: true }));
 
-mongoose.connect("mongodb://127.0.0.1:27017/myblogDB", {
+mongoose.connect("ayodeji-render", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });

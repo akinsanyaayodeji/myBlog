@@ -9,7 +9,7 @@ app.use(express.static("public"));
 app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({ extended: true }));
 
-mongoose.connect("mongodb+srv://<username>:<password>@cluster0.w0e55zw.mongodb.net/?retryWrites=true&w=majority", {
+mongoose.connect("mongodb+srv://ayodeji-render:368300@cluster0.w0e55zw.mongodb.net/ayodeji-render?retryWrites=true&w=majority", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
